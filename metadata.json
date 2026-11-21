@@ -1,0 +1,6 @@
+{
+  "name": "MicroShift",
+  "description": "Platform dispatch shift kilat hiper-lokal untuk UMKM dan pekerja harian terverifikasi RT/RW.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

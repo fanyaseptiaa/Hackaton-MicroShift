@@ -1,0 +1,197 @@
+---
+name: MicroShift
+colors:
+  surface: '#f9f9f9'
+  surface-dim: '#dadada'
+  surface-bright: '#f9f9f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f3f3'
+  surface-container: '#eeeeee'
+  surface-container-high: '#e8e8e8'
+  surface-container-highest: '#e2e2e2'
+  on-surface: '#1b1b1b'
+  on-surface-variant: '#434655'
+  inverse-surface: '#303030'
+  inverse-on-surface: '#f1f1f1'
+  outline: '#737686'
+  outline-variant: '#c3c6d7'
+  surface-tint: '#0053db'
+  primary: '#004ac6'
+  on-primary: '#ffffff'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#b4c5ff'
+  secondary: '#006c49'
+  on-secondary: '#ffffff'
+  secondary-container: '#6cf8bb'
+  on-secondary-container: '#00714d'
+  tertiary: '#735c00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#cea700'
+  on-tertiary-container: '#4e3d00'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#ffe083'
+  tertiary-fixed-dim: '#eec200'
+  on-tertiary-fixed: '#231b00'
+  on-tertiary-fixed-variant: '#574500'
+  background: '#f9f9f9'
+  on-background: '#1b1b1b'
+  surface-variant: '#e2e2e2'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 42px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 30px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.03em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 0.75rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system powers a hyper-local instant dispatch platform built for Indonesian MSMEs (UMKM) and daily gig workers. The interface is engineered for speed, clarity, and zero-ambiguity decision-making under real-world constraints: bright outdoor sunlight, one-handed operation, and low-spec Android smartphones.
+
+The aesthetic is **Neo-Brutalist**, combining raw, high-contrast structural clarity with approachable geometric typography. Thick solid black borders (`2px solid #000000`), hard offset drop shadows, and a crisp off-white canvas eliminate visual ambiguity and ensure every interactive element stands out immediately. Rather than relying on subtle gradients or delicate blurs that wash out on budget screens, the design system uses bold, flat color blocks—electric blue, emerald green, and warm yellow—to communicate urgency, availability, and earnings at a glance.
+
+The emotional tone is **energetic, trustworthy, and direct**—empowering workers to claim shifts in seconds and giving business owners immediate confidence that help is on the way.
+
+## Colors
+
+The color system is built for maximum legibility and instant status recognition on low-contrast displays.
+
+- **Canvas & Surfaces:** The primary application background is a crisp off-white (`#F8F9FA`), while interactive cards, modals, and input fields sit on pure white (`#FFFFFF`) to create immediate figure-ground separation.
+- **Structural Ink (`#000000`):** Pure black is used for all primary text, `2px` structural borders, and hard offset drop shadows, guaranteeing a minimum 15:1 contrast ratio on light surfaces.
+- **Primary Blue (`#2563EB`):** Reserved for primary calls-to-action (e.g., "Claim Shift", "Post Job"), active navigation states, and key interactive controls. Pair with `#FFFFFF` text.
+- **Emerald Green (`#10B981`):** Indicates confirmed shifts, active workers, verified payouts, and positive status badges. Pair with `#000000` text for maximum contrast.
+- **Warm Yellow (`#FACC15`):** Highlights urgent/instant dispatch badges, surge pay bonuses, and pending notifications. Always pair with `#000000` text.
+- **Semantic & Muted Tones:** Use `#DC2626` for destructive actions or urgent cancellations, and `#4B5563` for secondary metadata (e.g., distance, timestamps) on white surfaces.
+
+## Typography
+
+Typography pairs **Plus Jakarta Sans** for bold, geometric headlines and high-impact labels with **Inter** for clean, legible body copy and numeric data.
+
+- **Headlines & Display:** Use `Plus Jakarta Sans` at `700`–`800` weight with tight letter-spacing (`-0.01em` to `-0.02em`) to give shift titles, payout amounts, and section headers an unmistakable, poster-like presence. On mobile viewports (`< 640px`), use `display-lg-mobile` (`28px`) instead of `display-lg` (`36px`) to prevent awkward line wrapping.
+- **Body & Metadata:** Use `Inter` at `14px`–`16px` for job descriptions, addresses, and instructions. Avoid font weights lighter than `400` to preserve crispness on low-DPI screens.
+- **Labels & Badges:** Use `Plus Jakarta Sans` at `700` weight with uppercase styling and slight positive tracking (`0.02em`–`0.04em`) for status badges, category chips, and button labels.
+
+## Layout & Spacing
+
+The design system uses a **mobile-first fluid grid** optimized for single-handed PWA navigation, scaling cleanly to tablet and desktop views for MSME dispatchers.
+
+- **Mobile (`< 640px`):** A 4-column fluid grid with `1rem` (`16px`) outer margins and `0.75rem` (`12px`) gutters. Most shift cards and action banners span all 4 columns, while compact metric tiles span 2 columns.
+- **Tablet (`640px – 1023px`):** Expands to an 8-column fluid grid with `1.5rem` (`24px`) outer margins and `1rem` (`16px`) gutters. Shift feeds transition to a 2-column card layout.
+- **Desktop (`>= 1024px`):** Expands to a 12-column fluid grid with a max container width of `1200px`, `2rem` (`32px`) margins, and `1.5rem` (`24px`) gutters, supporting split-screen dispatch tables and live maps.
+- **Touch Targets & Rhythm:** Maintain at least `0.5rem` (`8px`) between adjacent interactive elements and `1rem` (`16px`) internal padding inside cards. All primary tap targets must be at least `48px` tall.
+
+## Elevation & Depth
+
+Visual hierarchy is achieved through **bold borders and hard offset drop shadows**—never soft, blurred shadows or translucent glass effects. This keeps rendering lightweight on low-spec mobile GPUs while delivering unmistakable tactile depth.
+
+- **Resting Cards & Containers:** `2px solid #000000` border paired with a hard `4px 4px 0px #000000` offset shadow.
+- **Interactive Buttons & Badges:** `2px solid #000000` border with a `3px 3px 0px #000000` or `4px 4px 0px #000000` shadow.
+- **Pressed / Active State:** On tap or click, translate the element `2px` down and `2px` right (`translate(2px, 2px)`) while reducing the shadow to `2px 2px 0px #000000` (or `0px 0px 0px #000000` for flat press), creating a physical, mechanical button feel.
+- **Modals & Bottom Sheets:** `2px solid #000000` border with a `6px 6px 0px #000000` shadow, backed by a solid `rgba(0, 0, 0, 0.6)` scrim.
+
+## Shapes
+
+The shape language uses **soft-sharp geometry** (`0.25rem` / `4px` base radius, `0.5rem` / `8px` for large cards and modals). This slight rounding prevents the interface from feeling overly harsh on mobile touchscreens while preserving the crisp, boxy silhouette of Neo-Brutalism.
+
+- **Buttons, Inputs & Badges:** `0.25rem` (`4px`) corner radius.
+- **Cards, Modals & Bottom Sheets:** `0.5rem` (`8px`) corner radius.
+- **Avatars & Status Dots:** Full circle (`9999px`) with a `2px solid #000000` border.
+
+## Components
+
+All components share the core Neo-Brutalist DNA: `2px solid #000000` borders, hard offset shadows, high-contrast fills, and `48px` minimum touch targets for mobile usability.
+
+- **Buttons:**
+  - *Primary:* `#2563EB` fill, `#FFFFFF` bold label, `2px solid #000000` border, `4px 4px 0px #000000` shadow. Translates `(2px, 2px)` on press.
+  - *Secondary:* `#FFFFFF` fill, `#000000` bold label, `2px solid #000000` border, `4px 4px 0px #000000` shadow.
+  - *Urgent / Accent:* `#FACC15` fill, `#000000` bold label, same border and shadow rules.
+- **Chips & Status Badges:** Compact `0.25rem` radius pills with `2px solid #000000` borders and `2px 2px 0px #000000` shadows. Use `#10B981` for "Verified / Active", `#FACC15` for "Instant / Urgent", and `#FFFFFF` for neutral category tags.
+- **Cards (Shift Dispatch Cards):** `#FFFFFF` surface, `0.5rem` radius, `2px solid #000000` border, `4px 4px 0px #000000` shadow, and `1rem` internal padding. Display the payout amount in `headline-md` at the top right, role title in `headline-sm`, and distance/time metadata in `body-md`.
+- **Lists:** Stacked items separated by `2px solid #000000` horizontal dividers or `0.75rem` vertical gaps between individual bordered list cards.
+- **Input Fields:** `#FFFFFF` fill, `0.25rem` radius, `2px solid #000000` border, `48px` minimum height. On focus, shift the border/shadow emphasis to `#2563EB` while keeping the `2px` black outline.
+- **Checkboxes & Radio Buttons:** `24px × 24px` interactive boxes with `2px solid #000000` borders. Checked states fill with `#2563EB` (or `#10B981` for task completion) and display a crisp `#FFFFFF` checkmark or inner dot.
+- **Bottom Navigation Bar (PWA):** Fixed `#FFFFFF` bar with a `2px solid #000000` top border. Active tab uses a `#FACC15` or `#2563EB` pill indicator with bold `label-sm` text.
